@@ -5,7 +5,9 @@ This component is a web service built with Flask that receives a embedding repre
 
 ## Installation
 
-This component is built to run in a Docker container (see `Dockerfile`).
+This component is built to run in a Docker container (see `Dockerfile`). 
+
+The model checkpoint is available in https://huggingface.co/signon-project/slt-embedding-to-text. The best.ckpt checkpoint must be included in the src/model/ folder.
 
 ## Testing
 
